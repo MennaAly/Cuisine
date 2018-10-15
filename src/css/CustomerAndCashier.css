@@ -1,0 +1,30 @@
+.first-part,.second-part{
+  height:870px;
+  background-color: #f0f0f0;
+}
+.first-part{
+  border-right: 2px solid #d3d3d3;
+}
+.date-hour,.cachier-customer-info{
+  margin:8px 0px 0px 20px;
+}
+.date-hour p{
+  font-size:11px;
+  color:gray;
+}
+.cachier-customer-info p{
+  font-weight: bold;
+}
+.cachier-customer-info span{
+  font-weight: bolder;
+  font-size: 25px;
+}
+.cachier-customer-info button{
+  color:black;
+  margin:15px 0px 0px;
+  background-color: white;
+  border-style: groove;
+  font-weight: bold;
+  border-radius: 18px;
+  padding:5px 45px;
+}

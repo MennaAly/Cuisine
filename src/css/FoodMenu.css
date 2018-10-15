@@ -1,0 +1,73 @@
+.menu{
+  position:relative;
+  background: white;
+  margin:10px;
+  height:780px;
+  width:760px;
+  border-radius:18px;
+}
+.menu-buttons{
+position:absolute;
+width:760px;
+height:90px;
+margin-left:0.01em;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.menu .btn{
+  width:153px;
+  height:90px;
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #F5F5F5;
+  border:2px solid #F0F0F0;
+}
+.menu-buttons .food-btn{
+  background-color:#f03030;
+  color:white;
+  font-weight:bold;
+  border-bottom:none;
+}
+.menu-buttons :nth-child(n+2){
+  color:#de5255;
+  font-weight: bold;
+}
+.menu-buttons .triangle-up {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin:12px 50px 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white;
+}
+.menu .food-menu{
+  position:absolute;
+  width:760px;
+  height:60px;
+  margin-left:0.01em;
+  border-radius: 0px;
+  background-color: white;
+  border-bottom: 3px solid #F0F0F0;
+}
+.food-menu img{
+  margin:15px 40px;
+}
+.food-menu .col p,i{
+  margin-top:15px;
+  margin-left:40px;
+  font-weight: bold;
+  color:#a8a8a8;
+}
+.food-menu :nth-child(2) p{
+  color:#de5255;
+}
+.food-menu :nth-child(2)::after{
+  content: "";
+  color:#de5255;
+  display: block;
+  width: 130%;
+  margin-left: -10px;
+  border-bottom: 5px solid #de5255;
+}
